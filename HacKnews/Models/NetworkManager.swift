@@ -33,9 +33,4 @@ class NetworkManager: ObservableObject {
             
         }
     }
-    
-    
-    func parseData () {
-        
-    }
 }

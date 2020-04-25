@@ -21,7 +21,7 @@ struct WebView: UIViewRepresentable {
         if let safeUrl = urlString {
             if let url = URL(string: safeUrl) {
                 let request = URLRequest(url: url)
-                    uiView.load(request)
+                uiView.load(request)
             }
         }
     }
